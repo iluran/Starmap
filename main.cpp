@@ -19,13 +19,14 @@ public:
             for (int y = 0; y < StarMax; y++)
                 stars[x][y] = 0;
     }
-    void readin()
-    {
-        ifstream fin ("RawMap.txt");
+    void readin() {
+        ifstream fin("RawMap.txt");
         fin >> stopx >> stopy;
-        for (int x = 0; x < stopx; x ++)
-            for (int y = 0; y < stopy, y++)
-                fout <
+        for (int x = 0; x < stopx; x++) {
+            for (int y = 0; y < stopy; y++){
+
+            }
+        }
     }
     bool brighter (int x, int y, int value)
     {
@@ -36,9 +37,7 @@ public:
     }
     bool isstar (int x, int y)
     {
-        return (brighter(x-1, y-1, map[x][y]) &&
-
-        )
+        return (brighter(x-1, y-1, map[x][y]));
 
     }
     void findstars()
@@ -65,10 +64,7 @@ public:
 
 int main() {
 
-    Starfind sf;
 
-    sf.clear;
-    sf.
 
 
     return 0;
