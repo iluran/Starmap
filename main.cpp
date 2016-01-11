@@ -19,13 +19,14 @@ public:
             for (int y = 0; y < StarMax; y++)
                 stars[x][y] = 0;
     }
-    void readin()
-    {
-        ifstream fin ("RawMap.txt");
+    void readin() {
+        ifstream fin("RawMap.txt");
         fin >> stopx >> stopy;
-        for (int x = 0; x < stopx; x ++)
-            for (int y = 0; y < stopy, y++);
+        for (int x = 0; x < stopx; x++) {
+            for (int y = 0; y < stopy; y++){
 
+            }
+        }
     }
     bool brighter (int x, int y, int value)
     {
